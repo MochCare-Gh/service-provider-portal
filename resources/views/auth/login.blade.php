@@ -1,0 +1,1 @@
+@extends("templates.".config("sysconfig.theme").".frontPageLayout")

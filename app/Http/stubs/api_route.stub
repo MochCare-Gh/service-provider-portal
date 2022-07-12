@@ -1,0 +1,11 @@
+<?php
+Route::group(['middleware' => ['auth','permission:ModuleName']],function(){
+    Route::get('/ModuleName/list',array('uses'=>'ModuleNameController@All','as'=>'api_ModuleNamelist'));
+    Route::post('/ModuleName/create_or_update',array('uses'=>'ModuleNameController@CreateOrUpdate','as'=>'api_ModuleNamecreateorupdate'));
+    Route::get('/ModuleName/add',array('uses'=>'ModuleNameController@add','as'=>'api_ModuleNameadd'));
+    Route::get('/ModuleName/edit/{id}',array('uses'=>'ModuleNameController@edit','as'=>'api_ModuleNameedit'));
+    Route::get('/ModuleName/view/{id}',array('uses'=>'ModuleNameController@view','as'=>'api_ModuleNameview'));    
+    Route::post('/ModuleName/update/{id}',array('uses'=>'ModuleNameController@Update','as'=>'api_ModuleNameupdate'));
+    Route::delete('/ModuleName/delete/{id}',array('uses'=>'ModuleNameController@Delete','as'=>'api_ModuleNamedelete'));
+    Route::delete('/ModuleName/delete_multiple', array('uses' => 'ModuleNameController@DeleteMultiple', 'as' => 'ModuleNamedeletemultiple'));
+});

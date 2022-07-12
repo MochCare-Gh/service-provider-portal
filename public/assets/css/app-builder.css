@@ -1,0 +1,9 @@
+/* 
+    Document   : app-builder
+    Created on : 09/12/2017, 12:01:05 ص
+    Author     : Ramy
+    Description: Custom CSS.
+*/
+.modifyicon{
+    font:normal normal normal 13px/4 FontAwesome !important;
+}

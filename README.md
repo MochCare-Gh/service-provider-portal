@@ -14,7 +14,8 @@
   Database user name : Is the Database assigned User name who has full privileges on it 
   Database password   : is the Password of Database User name on this database 
   
-  Note : Another way to install the DB of application , you can execute attached app_builder_install.sql to your database and define database settings in .env file  
+  Note : Another way to install the DB of application , you can execute attached mochcare_service_provider_db.sql to your database and define database settings in .env   file. If you choose this option, you dont need to continue with the next steps.
+  
   
 - Go to your website URL EXAMPLE : www.website.com/install 
 - Put your database settings and The New User Account which you will Use .

@@ -41,42 +41,20 @@
 6.
 <img width="537" alt="image" src="https://user-images.githubusercontent.com/28471168/200584475-abdef73b-356d-45f0-90aa-674cc91c3e36.png">
 
+7. Menu for New Feature has been added.
+<img width="484" alt="image" src="https://user-images.githubusercontent.com/28471168/200597684-c35f2bfd-b3d1-45ea-9e6d-3079ec1a9103.png">
 
+8.
+<img width="483" alt="image" src="https://user-images.githubusercontent.com/28471168/200595909-9949b48a-eba7-4f39-83d0-db795e0a7311.png">
 
- 
-All CRUD Modules listed
+9.
+<img width="502" alt="image" src="https://user-images.githubusercontent.com/28471168/200596239-562d2879-aa61-4f2c-8e66-ee9b10341b72.png">
 
-               
+10.
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/28471168/200596846-c8d716c2-0290-4e72-923b-2f073024e3cd.png">
 
-Enter your new feature name and select icon here.
- 
-Locate “New Feature” and click Configure
-Note: “Fields” represents “column” in database
-   
- 
-Click on “Add New Field” and fill in the details requested. 
- 
-Click on “Generate Module” after completing configuration iguration
-
-CRUD for New Feature has been added.
- 
-PHP source files for New Feature can be found here >> root/resources/views
- 
-You can make changes as you wish in this file. (Knowledge of PHP required )
-
-
-
-
-
-
-
-
- 
-API Menu created on sidebar.
-
- 
-Scroll down to view API documentation for New Feature
-
+11.
+<img width="506" alt="image" src="https://user-images.githubusercontent.com/28471168/200596952-885d2152-24d1-4f5e-9a44-fc889e938b9a.png">
 
 ## License
 

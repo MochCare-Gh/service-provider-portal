@@ -10,7 +10,7 @@
 - Create a folder under this directory >> C:\xampp\htdocs and name it according to your project
 ![image](https://user-images.githubusercontent.com/28471168/203621626-2a3462a4-b685-456a-8969-fe457cc08429.png)
 
-- Clone this repo into your project folder
+- Clone this repo into your project folder by opening terminal in the current directory and typing in : git clone https://github.com/MochCare-Gh/service-provider-portal.git
 ![image](https://user-images.githubusercontent.com/28471168/203719650-5f95d95e-9f18-4771-97bf-a768379f6e63.png)
 
 - Open [localhost/phpmyadmin] and create a new database ( Refer to image below )

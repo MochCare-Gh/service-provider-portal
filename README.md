@@ -1,25 +1,49 @@
 <p align="center"><img src="https://mochcare.com/wp-content/uploads/2022/08/mochcare-logo-removebg-preview-300x83.png" width="400"></p>
 
 
+## Pre - Installation Instruction
+- Download xampp latest version from [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+- Follow wizard to install setup
+- Open Xampp Control Panel from Start menu and start *Apache* and *MySQL* modules by clicking on start button ( Refer to image below )
+![image](https://user-images.githubusercontent.com/28471168/203618970-d9816a65-8f4c-4ae9-8efc-9171701f9c71.png)
 
-## Installation Instruction
+- Create a folder under this directory >> C:\xampp\htdocs and name it according to your project
+![image](https://user-images.githubusercontent.com/28471168/203621626-2a3462a4-b685-456a-8969-fe457cc08429.png)
 
-- First clone this repo and Upload file to your server .
-- Extract file content to server .
-- Move all files to your root server folder
-  example : public_html folder . [including .htaccess , .env ] it is better to do this by filezilla because some hosts don’t show this files by default .
-- Go to your Host and Create new database , you will need  the following in installation   
-  Database Host : is IP of your host or it is local server , it is something like [ 127.0.0.1 ] <br />
+- Clone this repo into your project folder
+![image](https://user-images.githubusercontent.com/28471168/203719650-5f95d95e-9f18-4771-97bf-a768379f6e63.png)
+
+- Open [localhost/phpmyadmin] and create a new database ( Refer to image below )
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/28471168/203618859-99812d8f-385d-4717-b20e-000ee4205bf6.png">
+
+- Enter your database name (e.g: mochcare) ( Keep this in mind to use later )
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/28471168/203720453-37e22664-e5a9-40bb-9176-ca465ba2301b.png">
+
+# Database Setup Method 1
+- Make sure your database is selected, then click on Import 
+<img width="561" alt="image" src="https://user-images.githubusercontent.com/28471168/203734565-119055cd-a036-4f62-b7e5-e1b15032937a.png">
+
+- Click on Select file to locate "mochcare_service_provider_db.sql" under the cloned files, then scroll down and click on Import
+<img width="542" alt="image" src="https://user-images.githubusercontent.com/28471168/203742476-d611b2d0-fe78-4ffa-bb30-840914b7c04e.png">
+
+- Locate the .env file in the project directory and open with your editor and put in your database settings.
+  Database Host : is IP of your host or it is local server , it is something like [ 127.0.0.1 ] or localhost <br />
   Database name : is Name of created database . <br />
-  Database user name : Is the Database assigned User name who has full privileges on it  <br />
-  Database password   : is the Password of Database User name on this database <br />
-  
-  Note : Another way to install the DB of application , you can execute attached mochcare_service_provider_db.sql to your database and define database settings in .env   file. If you choose this option, you dont need to continue with the next steps.
-  
+  Database user name : root ( this is the default username ) <br />
+  Database password   : ( leave the password space blank by default ) <br />
+- Go to your www.yourwebsite.com/admin/login to use the application .
+
+# Database Setup Method 2
+Note : Another way to install the DB of application is to go through the installer wizard:  
   
 - Go to your website URL EXAMPLE : www.website.com/install 
 - Put your database settings and The New User Account which you will Use .
+  Database Host : is IP of your host or it is local server , it is something like [ 127.0.0.1 ] or localhost <br />
+  Database name : is Name of created database . <br />
+  Database user name : Is the Database assigned User name who has full privileges on it  <br />
+  Database password   : is the Password of Database User name on this database <br />
 - Go to your www.yourwebsite.com/admin/login to use the application .
+
 
 ## How to contribute ( NO-CODE ) *For general users and developers
  

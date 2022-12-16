@@ -63,40 +63,68 @@ Default Admin credentials ( You can change later under profile ) <br />
 Email: admin@admin.com <br />
 Password: password <br />
 
-## How to contribute ( NO-CODE ) *For general users and developers
+## How to customize / contribute ( NO-CODE ) *For general users and developers
  
-1.
-<img width="534" alt="image" src="https://user-images.githubusercontent.com/28471168/200583099-3afaf25d-6edb-435e-8b38-d3ea727bed93.png">
+1. SELECT CRUD Builder from the left Side bar >> Modules
 
-2.
-<img width="534" alt="image" src="https://user-images.githubusercontent.com/28471168/200583644-328ab4de-32df-42ad-be0b-8ee8627c4a70.png">
+2. All CRUD Modules are listed here. Click on “Add New Module” to add a new feature.
 
 3. Enter your new feature name and select icon here.
-<img width="536" alt="image" src="https://user-images.githubusercontent.com/28471168/200583835-132a54c6-457f-470c-9ea7-08524001a2c5.png">
 
-4.
-<img width="551" alt="image" src="https://user-images.githubusercontent.com/28471168/200584133-6c3a93a6-8653-49df-b1fb-740fb469a3ad.png">
+4. Locate “New Feature” and click Configure
+Note: “Fields” represents “column” in database
+   
+5. Click on “Add New Field” and fill in the details requested. 
 
-5.
-<img width="537" alt="image" src="https://user-images.githubusercontent.com/28471168/200584305-105e2c14-defa-49d6-95f0-5c233948af80.png">
-
-6.
-<img width="537" alt="image" src="https://user-images.githubusercontent.com/28471168/200584475-abdef73b-356d-45f0-90aa-674cc91c3e36.png">
+6. Click on “Generate Module” after completing configuration
 
 7. Menu for New Feature has been added.
-<img width="484" alt="image" src="https://user-images.githubusercontent.com/28471168/200597684-c35f2bfd-b3d1-45ea-9e6d-3079ec1a9103.png">
 
-8.
-<img width="483" alt="image" src="https://user-images.githubusercontent.com/28471168/200595909-9949b48a-eba7-4f39-83d0-db795e0a7311.png">
+# For developers ( Knowledge of Php , Laravel , Javascript is required )
+8. PHP source files for New Feature can be found here >> project_folder/resources/views
 
-9.
-<img width="502" alt="image" src="https://user-images.githubusercontent.com/28471168/200596239-562d2879-aa61-4f2c-8e66-ee9b10341b72.png">
+9. You can make changes as you wish in this file.
 
-10.
-<img width="505" alt="image" src="https://user-images.githubusercontent.com/28471168/200596846-c8d716c2-0290-4e72-923b-2f073024e3cd.png">
+# API documentation and management
+10. Api documentation is available on your dashboard. <br />
+Locate API Menu created on sidebar.<br />
+Scroll down to view API documentation all modules. <br />
+Methods documented ["POST"] , ["GET","HEAD"]
 
-11.
-<img width="506" alt="image" src="https://user-images.githubusercontent.com/28471168/200596952-885d2152-24d1-4f5e-9a44-fc889e938b9a.png">
+## Built With
+1.	Laravel Framework 
+2.	Angular JS .
+3.	Gentelella Admin Template .
+4.	Bootstrap.
+5.	Font Awesome.
+
+## About Laravel
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 

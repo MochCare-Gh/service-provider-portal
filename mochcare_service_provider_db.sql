@@ -1732,7 +1732,7 @@ CREATE TABLE `Personnels` (
 --
 
 INSERT INTO `Personnels` (`id`, `per_name`, `per_contact`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'Rebecca Engmann', '0503211670', '2022-08-01 05:17:41', '2022-08-01 05:17:41', NULL),
+(1, 'Rebecca Engmann', '0548166095', '2022-08-01 05:17:41', '2022-08-01 05:17:41', NULL),
 (2, 'Joshua Atta', '0548166095', '2022-08-12 16:10:59', '2022-08-12 16:10:59', NULL);
 
 -- --------------------------------------------------------
@@ -1960,16 +1960,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `image`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'MOCHCare', 'admin@admin.com', NULL, '$2y$10$PpaKSVzRdiSZxrUzQw.ozeqAMBgZs7EXhahLFxsk/Nli8iXonDyji', 'php2g2hPB.jpg', NULL, '2021-03-17 18:57:13', '2022-06-25 10:00:18'),
-(3, 'Sophia', 'sophia@mochcare.com', NULL, '$2y$10$tMVbA5sLiyXR9YRBpZDhv.hbL8gDyIBe7.a5kl4jFauA.VjnejiPa', 'phpWnvgdK.jpg', NULL, '2022-06-25 17:46:20', '2022-06-25 17:47:53'),
-(4, 'Gerhard Melah', 'gehard@mochcare.com', NULL, '$2y$10$waa7Dvm4ezOeJFJ3uOZ4xeOkd2lAMOEuI5x9bEGKwUTqTk/C1OiIO', 'photos/img.jpg', NULL, '2022-08-12 16:07:10', '2022-08-12 16:07:10'),
-(5, 'Miss Malah', 'missmalah@mochcare.com', NULL, '$2y$10$fySA2ReiNBWgRZS0Gd8eyOpl8slkIGquwzkgEe2/oGOb4/vE72RDi', 'phpuoVtAk.png', NULL, '2022-08-12 16:21:54', '2022-08-12 16:26:58'),
-(6, 'Chris Odoi', 'chris@moochcare.com', NULL, '$2y$10$ygGgMAqfQHROGPYyrh.EZ.t0gISij7kdz0i4LdV6bQKOkA9EH.nlS', 'photos/img.jpg', NULL, '2022-08-15 13:20:18', '2022-08-15 13:20:18'),
-(7, 'Kenton Tillman', 'christa.kuphal17@projectmy.net', NULL, '$2y$10$kyJlmw5FPJ6B5cZJMwcQV.9..0fGjzBfLvJpH.TZOiQspyabXhP7G', 'photos/img.jpg', NULL, '2022-09-02 21:46:38', '2022-09-02 21:46:38'),
-(8, 'Lauren Anderson', 'lennie75@projectmy.net', NULL, '$2y$10$O0/TodfK47GikFFc3pljpensUKZDU2aE/dHKPYfZ3CyF.RjVWETca', 'photos/img.jpg', NULL, '2022-09-02 21:50:01', '2022-09-02 21:50:01'),
-(9, 'Unique Mayert', 'samantha87@projectmy.net', NULL, '$2y$10$Jh6QbdfmhqyVB0M4gX4iT.1Wh0wLahFgzl7Zr6/hPPejn2UY.8kiG', 'photos/img.jpg', NULL, '2022-09-02 21:53:18', '2022-09-02 21:53:18'),
-(10, 'Milan Kling', 'albin42@slclogin.com', NULL, '$2y$10$.k0TGVLOtbRsvWkvw0pSJu7rLpo46b5SgFRj7YhwNd5XzvhiVCza2', 'photos/img.jpg', NULL, '2022-09-03 07:47:51', '2022-09-03 07:47:51'),
-(11, 'Timmothy Muller', 'kristina.rolfson@slclogin.com', NULL, '$2y$10$p8RkKEVn0MfFBoYjeiWNkOGIPKbVQfSBFGjFBysRbr1bu4qvYN6O.', 'photos/img.jpg', NULL, '2022-09-03 07:51:04', '2022-09-03 07:51:04'),
-(12, 'Meredith Wehner', 'donna.kuphal@slclogin.com', NULL, '$2y$10$RgZvGpu2JgUJoEtw8yvbOuGNcLC22cjPGzszsfCCiXMQIubeFQwWK', 'photos/img.jpg', NULL, '2022-09-03 07:54:33', '2022-09-03 07:54:33');
+(3, 'Sophia', 'sophia@mochcare.com', NULL, '$2y$10$tMVbA5sLiyXR9YRBpZDhv.hbL8gDyIBe7.a5kl4jFauA.VjnejiPa', 'phpWnvgdK.jpg', NULL, '2022-06-25 17:46:20', '2022-06-25 17:47:53');
 
 -- --------------------------------------------------------
 

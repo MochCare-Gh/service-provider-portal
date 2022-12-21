@@ -100,11 +100,11 @@ Methods documented ["POST"] , ["GET","HEAD"]
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thank you for considering contributing to this project! Our user guide can be found here [MOCHCare User Guide](https://mochcare.gitbook.io/product-docs/59ojkfJv1gOmOLD9PiZD/).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this project, please send an e-mail to Jour tech team via [tech@mochcare.com](mailto:tech@mochcare.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 

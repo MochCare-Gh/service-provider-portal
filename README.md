@@ -106,6 +106,10 @@ Thank you for considering contributing to this project! Our user guide can be fo
 
 If you discover a security vulnerability within this project, please send an e-mail to Jour tech team via [tech@mochcare.com](mailto:tech@mochcare.com). All security vulnerabilities will be promptly addressed.
 
+## Copyright
+Ownership by MOCHCARE Limited Company
+[https://mochcare.com](www.mochcare.com)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

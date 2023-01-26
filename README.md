@@ -108,7 +108,9 @@ If you discover a security vulnerability within this project, please send an e-m
 
 ## Copyright
 Ownership by MOCHCARE Limited Company
-[https://mochcare.com](www.mochcare.com)
+[https://mochcare.com](www.mochcare.com) <br />
+[https://github.com/MochCare-Gh/service-provider-portal/blob/main/CERT%20OF%20INCOPORATION.pdf](Document 1) <br />
+[https://github.com/MochCare-Gh/service-provider-portal/blob/main/OWNERSHIP%20PROFILE.pdf](Document 2)
 
 ## License
 

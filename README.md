@@ -1,4 +1,4 @@
-<p align="center"><img src="https://mochcare.com/wp-content/uploads/2022/08/mochcare-logo-removebg-preview-300x83.png" width="400"></p>
+<p align="center"><img src="https://mochcare.com/wp-content/uploads/2024/06/mochcare-logo-removebg-preview-300x83-1.png#283" width="400"></p>
 
 ##  Setting up Git bash 
 - Download Git bash from here :[https://git-scm.com/download](https://git-scm.com/download)

@@ -114,4 +114,4 @@ Ownership by MOCHCARE Limited Company
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [GNU General Public License version 3](https://opensource.org/license/gpl-3-0).
